@@ -4,7 +4,7 @@ This is a Hacker News Client project to fetch and display top news using the [Ha
 
 ## Instruction
 
-No need to install or run any commads to view this project. You can double click the index.html in the root folder to view the project in the browser.  
+No need to install or run any commads to view this project. You can open the index.html in the root folder to view the project in the browser.  
 
 ## TODO
 
