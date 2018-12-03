@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  color: #9d7327;
+}
+
+#news-list{
+  list-style: none;
+}
+
+#news-list li{
+  padding: 20px 15px 10px;
+  margin: 0 0 10px;
+  cursor: pointer;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 22px 0 #f7e0d0;
+  position: relative;
+  font-weight: bold;
+}
+
+.title-content {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  flex: 1;
+}
+
+.comments-num {
+  text-align: center;
+  font-size: 14px;
+  color: #9d7327;
+}
+
+.header {
+  padding: 15px 20px;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 0 16px 0 #909090;
+  background: #F4751E;
+  color: #fff;
+}
+.header-content {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}  
+
+.logo {
+  width: 20%;
+  display: inline-block;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-size: 24px;
+  font-weight: 900;
+  float: left;
+  text-align: left;
+  padding: 0 20px;
+  vertical-align: middle;
+  color: white;
+}  
+
+.nav {
+  list-style: none;
+  width: 75%;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+  text-align: right;
+  margin: 5px 0 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+img {
+  height: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover{
+  color: white;
+}
+
+.comment {
+  padding: 20px 15px;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+  margin: 0;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: #f3e5e5; 
+}
+
+.comment:first-child {
+  margin-top: 30px;
+  position: relative;
+}
+
+.comment:first-child:before {
+  content: 'Comments';
+  display: block;
+  font-size: 14px;
+  color: #9d7327;
+  position: absolute;
+  top: -25px;
+  font-weight: bold;
+}
+
+.comment:last-child {
+  border-bottom: 0;
+}
+
+.comment-content {
+  border-radius: 10px;
+  margin-top: 15px;
+  font-weight: normal;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.comment span {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 12px;
+}
